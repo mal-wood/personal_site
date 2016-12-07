@@ -19,14 +19,27 @@ $primary-color: color("blue", "lighten-2") !default;
 $secondary-color: color("yellow", "base") !default;
 @import "materialize";
 
+* {
+  color: #2B3663;
+}
+
 .background-color {
-    @extend .light-blue, .darken-4;
+    background-color:  #FFF;
 }
 
 .mal-photo {
-  width: 100%;
+  width: 125%;
+  border: 3px solid #FFF;
 }
 
 .center {
   text-align: center;
+}
+
+.nav-wrapper {
+  background-color: #46557E;
+}
+
+.section {
+  padding-top: 40px;
 }
