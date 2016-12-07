@@ -23,6 +23,16 @@ $secondary-color: color("yellow", "base") !default;
   color: #2B3663;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
 .background-color {
     background-color:  #FFF;
 }
@@ -37,9 +47,13 @@ $secondary-color: color("yellow", "base") !default;
 }
 
 .nav-wrapper {
-  background-color: #46557E;
+  background-color: #2A4A73;
 }
 
 .section {
   padding-top: 40px;
+}
+
+footer.page-footer {
+  background-color: #A28694;
 }
