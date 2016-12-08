@@ -39,11 +39,12 @@ main {
 
 .mal-photo {
   width: 125%;
-  border: 3px solid #FFF;
+  border: 5px solid #95C1EE;
+  border-radius: 3%;
 }
 
-.center {
-  text-align: center;
+.bold {
+  font-weight: bold;
 }
 
 .nav-wrapper {
