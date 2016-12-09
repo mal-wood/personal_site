@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "materialize/components/color";
+$primary-color: color("blue", "lighten-2") !default;
+$secondary-color: color("yellow", "base") !default;
+@import "materialize";
+
+* {
+  color: #2B3663;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+.background-color {
+    background-color:  #FFF;
+}
+
+.mal-photo {
+  width: 125%;
+  border: 5px solid #95C1EE;
+  border-radius: 3%;
+}
+
+.mal-reel {
+  width: 100%;
+}
+
+.tech-icon {
+  width: 60px;
+}
+
+.waves-effect.waves-light.btn {
+ background-color: #95C1EE;
+ margin-top: 10px;
+}
+
+.work-photo {
+  width: 100%;
+}
+
+.wide-photo {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #95C1EE;
+}
+
+.nav-wrapper {
+  background-color: #2A4A73;
+}
+
+.section {
+  padding-top: 40px;
+}
+
+footer.page-footer {
+  background-color: #A28694;
+}
