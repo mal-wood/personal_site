@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html class="background-color">
   <head>
-    <title>PersonalSite</title>
+    <title>Mal Wood</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>  
   <body>
-    <%= yield %>
+    <nav>
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><%= link_to 'HOME', root_path %></li>
+          <li><%= link_to 'ABOUT', about_path%></li>
+          <li><%= link_to 'WORK', work_path%></li>
+          <li><%= link_to 'CONNECT', connect_path%></li>
+          <li><a href="https://resume.creddle.io/resume/90f9izblaxv">RESUMÉ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </body>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+          <h5 class="white-text center-align">If you love it, chase it.</h5>
+      </div>
+    </div>
+      <div class="footer-copyright">
+      <div class="container center-align">
+        © Mal Wood. All Rights Reserved.
+      </div>
+    </div>
+  </footer>          
 </html>
