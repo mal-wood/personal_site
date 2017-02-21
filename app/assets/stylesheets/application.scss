@@ -40,13 +40,13 @@ main {
 
 .mal-photo {
   width: 125%;
-  border: 5px solid #95C1EE;
+  border: 5px solid #9DCBD8;
   border-radius: 3%;
   margin-right: 40px;
 }
 
 .light-blue-text {
-  font-color: #95C1EE;
+  font-color: #9DCBD8;
 }
 
 .mal-reel {
@@ -59,12 +59,16 @@ main {
 }
 
 .waves-effect.waves-light.btn {
- background-color: #95C1EE;
+ background-color: #9DCBD8;
  margin-top: 10px;
 }
 
 .work-photo {
-  width: 80%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .wide-photo {
@@ -76,11 +80,11 @@ main {
 }
 
 .btn {
-  background-color: #95C1EE;
+  background-color: #9DCBD8;
 }
 
 .nav-wrapper {
-  background-color: #2A4A73;
+  background-color: #9DCBD8;
 }
 
 .section {
@@ -92,9 +96,13 @@ main {
 }
 
 footer.page-footer {
-  background-color: #CC907C;
+  background-color: #556D87;
 }
 
 .footer-text {
   font-size: 10px;
 }
+
+//masonry 
+
+.grid-item { width: 200px; }
